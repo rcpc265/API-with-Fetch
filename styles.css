@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.search_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon_box {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.pokemon_box img {
+  width: 200px;
+}
+
+.pokemon_box p {
+  margin-top: 1rem;
+}
+
+.pokemon_box .pokemon_info {
+  padding: 2rem;
+}
